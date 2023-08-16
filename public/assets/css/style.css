@@ -1,0 +1,150 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Roboto", sans-serif;
+  }
+  html {
+    overflow-x: hidden;
+  }
+  body {
+    overflow-x: hidden;
+  }
+  /* ====heading css starts ==== */
+  .header-one-left a {
+    color: #d32027;
+    text-decoration: none;
+    font-size: 28px;
+    font-weight: 600;
+}
+.header-one-right ul {
+    display: inline-flex;
+    margin: 0;
+    padding: 0;
+    text-align: revert;}
+.header-one-right li {
+    margin: 10px;
+    list-style: none;
+}
+.header-one-right li a {
+    color: #d41f27;
+    font-weight: 500;
+    transition: 0.3s ease;
+    text-decoration: none;
+}
+.header-one-right li a.login {
+    border: 1px solid;
+    padding: 5px;
+    outline: 1px solid;
+    outline-offset: 2px;
+}
+.header-one-right {
+    text-align: end;
+}
+.header-one-right li a:hover {
+    color: #000;
+}
+.header-one {
+    height: 70px;
+    padding-top: 14px;
+}
+.header-one-left a i {
+    font-size: 40px;
+}
+/* headre 2 css starts  */
+.header-two ul {
+    display: inline-flex;
+    margin: 0;
+}
+.header-two {
+    text-align: center;
+    background: #d41f27;
+}
+.header-two ul li {
+    /* margin: 10px; */
+    list-style: none;
+    padding: 11px;
+}
+.header-two li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    transition: all 0.3s ease;
+    box-shadow: 0 0 10px #d41f272e;
+    padding: 0 12px;
+}
+.header-two li a:hover {
+    color: #d41f27;
+    margin: 0px;
+    background: #fff;
+    padding: 14px 12px;
+    box-shadow: 0 0 10px #d41f272e;
+}
+/*search box css start*/
+section.search-box{
+	background: #b3b3b3;
+	height: 455px;
+}
+.search-box .search-box-text{
+	padding:  20px;
+	text-align: center;
+	color: #fff;
+}
+.search-box .search-box-text h1{
+	padding-top: 60px;
+	font-size: 36px;
+	font-weight: 400;
+}
+.search-box-details .state-select{
+	color: #fff;
+	font-weight: 400;
+}
+.search-box-details .search-btn{
+	width: 100%;
+	padding: 8px;
+	border: 1px solid #d41f27;
+	background: #d41f27;
+	color: #fff;
+	border-radius: 6px;
+	margin-top: 7px;
+}
+.search-box-details .search-btn a{
+	color: #fff;
+    text-decoration: none;
+}
+.search-box-details {
+	background: #bd8386;
+	padding: 20px 40px;
+	color: #fff;
+}
+select#state-select {
+	border-radius: 6px;
+	width: 100%;
+	padding: 8px;
+	border: 1px solid #d41f2752;
+}
+select#district-select {
+	width: 100%;
+	border: 1px solid #d41f2752;
+	padding: 8px;
+	border-radius: 6px;
+}
+input[type="text"] {
+	width: 100%;
+	border: 1px solid #d41f2752;
+	padding: 8px;
+	border-radius: 6px;
+}
+select#blood-select {
+	padding: 8px;
+	border: 1px solid #d41f2752;
+	width: 100%;
+	border-radius: 6px;
+}
+.search-box-details .row {
+	/* justify-content: center; */
+	text-align: center;
+}
+label.blood-select {
+    padding-top: 10px;
+}
+/*search box css end*/
